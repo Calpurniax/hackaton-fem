@@ -9,6 +9,9 @@ import {
   CartesianGrid,
   Tooltip,
   Area,
+  LineChart,
+  Legend,
+  Line,
 } from "recharts";
 
 function App() {
@@ -97,7 +100,6 @@ function App() {
   const handleCountryChange = (event) => {
     setSelectedCountry(event.target.value);
   };
-
   console.log(dataCountries);
   return (
     <div className="App">
@@ -151,6 +153,34 @@ function App() {
         <XAxis dataKey="year" />
         <YAxis dataKey="internet_users" />
       </BarChart>
+
+      <LineChart
+        width={500}
+        height={300}
+        data={dataCountries.flatMap((data) => data.year)}
+        margin={{
+          top: 5,
+          right: 30,
+          left: 20,
+          bottom: 5,
+        }}
+      >
+        <XAxis dataKey="year" />
+        <YAxis />
+        <Legend />
+
+        {dataCountries.map((data) => (
+          <Line
+            key={data.country}
+            type="monotone"
+            dataKey="internet_users"
+            data={data.year}
+            name={data.country}
+            stroke={`#${Math.floor(Math.random() * 16777215).toString(16)}`}
+            activeDot={{ r: 8 }}
+          />
+        ))}
+      </LineChart>
     </div>
   );
 }
