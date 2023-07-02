@@ -2,9 +2,55 @@
 
 ## ABOUT OUR CODE (AND US)
 Hi! we are Deimantė Stankūnaitė, Nur Ahissami and Sofía Gracia. We worked very hard in this code, hope you enjoy it!
-### the choices we make, the path we walk:
-We decided to use React, as 2 of us already know it, typescript, in order to have a most strong code, and Sass, to help us nesting the styles.
-In the visual aspects, our colour palette is mostly blue and purple, with a light theme, we think is a good combination to present data but keep the visual style a bit funny. We chose "Dosis" as font, because is quite clear and readable.
+
+## Table of contents
+
+- [Our process](#the-choices-we-made)
+
+  - [Built with](#built-with)
+  - [Structure](#elements-that-we-have-to-show-and-structure)  
+  - [Decissions](#decissions)
+  
+
+- [Further implementations](#further-implementations)
+- [Links](#links)
+- [How can you run this project](#how-can-you-run-this-project)
+- [Author](#author)
+- [Support](#support-🖤)
+
+- 
+### The choices we made, the path we walk:
+#### Build with: We decided to use React, as 2 of us already know it, typescript, in order to have a most strong code, and Sass, to help us nesting the styles.
+#### Structure
+```bash
+├── Dockerfile
+├── README.md
+├── .gitignore
+├── backend
+    ├── data
+    │   └── internet_users.csv
+    ├── __init__.py
+    ├── Constants.py
+    ├── Database.py
+    ├── main.py
+    ├── requeriments.txt
+├── frontend
+    ├── README.md
+    ├── tsconfig.json
+    ├── .gitignore
+    ├── node_modules
+    ├── package-lock.json
+    ├── package.json
+    ├── public
+    ├── src
+        ├── components
+        ├── styles
+        ├── utils
+        ├── index.js
+        ├── App.tsx 
+```
+
+####Decissions: In the visual aspects, our colour palette is mostly blue and purple, with a light theme, we think is a good combination to present data but keep the visual style a bit funny. We chose "Dosis" as font, because is quite clear and readable.
 As composition, we think that keep the animated chart in the most important position, is the best option. Because is the most impressive and global data, and makes the web more dynamic.
 To create the charts we use Rechart library for React, we find that simple to use and very intuitive.
 
