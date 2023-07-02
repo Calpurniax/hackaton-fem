@@ -10,7 +10,7 @@ Hi! we are Deimantė Stankūnaitė, Nur Ahissami and Sofía Gracia. We worked ve
   * [📋 Structure](#📋-structure)  
   * [💭 Decissions](#💭-decissions)
 * [🏃🏽‍♀️ How can you run this project](#🏃🏽‍♀️-how-to-run-backend-and-frontend)
-* [👷🏼‍♀️ Setup backend](#👷🏼‍♀️-setup-backend)
+* [👷🏽‍♀️ Setup backend](#👷🏽‍♀️-setup-backend)
 * [👷🏽‍♀️ Setup frontend](#👷🏽‍♀️-setup-frontend)
 * [📩 Contact us](#📩-contact-us)
 
@@ -61,7 +61,7 @@ To create the charts we use Rechart library for React, we find that simple to us
 
 ## 🏃🏽‍♀️ HOW TO RUN BACKEND AND FRONTEND
 
-### 👷🏼‍♀️ Setup backend
+### 👷🏽‍♀️ Setup backend
 
 The **Backend** can be setup in two different ways.
 For both methods the following commands must be run on the commandline
