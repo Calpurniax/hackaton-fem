@@ -1,6 +1,6 @@
 # The International FemHack II 
 
-##ABOUT OUR CODE (AND US)
+## ABOUT OUR CODE (AND US)
 Hi! we are Deimantė Stankūnaitė, Nur Ahissami and Sofía Gracia. We worked very hard in this code, hope you enjoy it!
 ###the choices we make, the path we walk:
 We decided to use React, as 2 of us already know it, typescript, in order to have a most strong code, and Sass, to help us nesting the styles.
@@ -9,7 +9,7 @@ As composition, we think that keep the animated chart in the most important posi
 To create the charts we use Rechart library for React, we find that simple to use and very intuitive.
 
 
-##HOW TO RUN BACKEND AND FRONTEND
+## HOW TO RUN BACKEND AND FRONTEND
 
 ### Setup backend
 
