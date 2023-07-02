@@ -5,20 +5,13 @@ Hi! we are Deimantė Stankūnaitė, Nur Ahissami and Sofía Gracia. We worked ve
 
 ## Table of contents
 
-- [Our process](#the-choices-we-made)
+* [Our process](#the-choices-we-made)
+  * [Built with](#built-with)
+  * [Structure](#elements-that-we-have-to-show-and-structure)  
+  * [Decissions](#decissions)
+* [How can you run this project](#how-to-run-backend-and-frontend)HOW TO RUN BACKEND AND FRONTEND
 
-  - [Built with](#built-with)
-  - [Structure](#elements-that-we-have-to-show-and-structure)  
-  - [Decissions](#decissions)
-  
 
-- [Further implementations](#further-implementations)
-- [Links](#links)
-- [How can you run this project](#how-can-you-run-this-project)
-- [Author](#author)
-- [Support](#support-🖤)
-
-- 
 ### The choices we made, the path we walk:
 #### Build with: We decided to use React, as 2 of us already know it, typescript, in order to have a most strong code, and Sass, to help us nesting the styles.
 #### Structure
