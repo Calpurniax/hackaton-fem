@@ -2,7 +2,7 @@
 
 ## ABOUT OUR CODE (AND US)
 Hi! we are Deimantė Stankūnaitė, Nur Ahissami and Sofía Gracia. We worked very hard in this code, hope you enjoy it!
-###the choices we make, the path we walk:
+### the choices we make, the path we walk:
 We decided to use React, as 2 of us already know it, typescript, in order to have a most strong code, and Sass, to help us nesting the styles.
 In the visual aspects, our colour palette is mostly blue and purple, with a light theme, we think is a good combination to present data but keep the visual style a bit funny. We chose "Dosis" as font, because is quite clear and readable.
 As composition, we think that keep the animated chart in the most important position, is the best option. Because is the most impressive and global data, and makes the web more dynamic.
