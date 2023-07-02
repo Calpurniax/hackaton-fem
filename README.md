@@ -5,16 +5,24 @@ Hi! we are Deimantė Stankūnaitė, Nur Ahissami and Sofía Gracia. We worked ve
 
 ## Table of contents
 
-* [Our process](#the-choices-we-made)
-  * [Built with](#built-with)
-  * [Structure](#elements-that-we-have-to-show-and-structure)  
-  * [Decissions](#decissions)
-* [How can you run this project](#how-to-run-backend-and-frontend)
+* [👩🏻‍💻 Our process](#👩🏻‍💻-the-choices-we-made)
+  * [🏗️ Built with](#🏗️-built-with)
+  * [📋 Structure](#📋-structure)  
+  * [💭 Decissions](#💭-decissions)
+* [🏃🏽‍♀️ How can you run this project](#🏃🏽‍♀️-how-to-run-backend-and-frontend)
+* [👷🏼‍♀️ Setup backend](#👷🏼‍♀️-setup-backend)
+* [👷🏽‍♀️ Setup frontend](#👷🏽‍♀️-setup-frontend)
+* [📩 Contact us](#📩-contact-us)
 
 
-### The choices we made, the path we walk:
-#### Build with: We decided to use React, as 2 of us already know it, typescript, in order to have a most strong code, and Sass, to help us nesting the styles.
-#### Structure
+<hr>
+
+<image src="./readme-img.png" alt="Descripción de la imagen">
+
+## 👩🏻‍💻 The choices we made, the path we walk:
+#### 🏗️ Build with: 
+We decided to use `React` and `typescript`, as 2 of us already know it, in order to have a most strong code, and `Sass`, to help us nesting the styles.
+### 📋 Structure
 ```bash
 ├── Dockerfile
 ├── README.md
@@ -43,16 +51,17 @@ Hi! we are Deimantė Stankūnaitė, Nur Ahissami and Sofía Gracia. We worked ve
         ├── App.tsx 
 ```
 
-#### Decissions
+#### 💭 Decissions
 
 In the visual aspects, our colour palette is mostly blue and purple, with a light theme, we think is a good combination to present data but keep the visual style a bit funny. We chose "Dosis" as font, because is quite clear and readable.
 As composition, we think that keep the animated chart in the most important position, is the best option. Because is the most impressive and global data, and makes the web more dynamic.
 To create the charts we use Rechart library for React, we find that simple to use and very intuitive.
 
+<hr>
 
-## HOW TO RUN BACKEND AND FRONTEND
+## 🏃🏽‍♀️ HOW TO RUN BACKEND AND FRONTEND
 
-### Setup backend
+### 👷🏼‍♀️ Setup backend
 
 The **Backend** can be setup in two different ways.
 For both methods the following commands must be run on the commandline
@@ -60,10 +69,10 @@ For both methods the following commands must be run on the commandline
 ```bash
 # First, clone the repository
 # It can also be directly downloaded from the GitHub website.
-git clone https://github.com/nuwe-reports/femhack-II-frontend
+git clone https://github.com/Calpurniax/hackaton-fem
 
 # Then, change directory into the cloned repository
-cd femhack-II-frontend/
+cd hackaton-fem/
 ```
 
 ##### Method 1: Docker
@@ -79,7 +88,7 @@ This method builds and runs a **Docker** container exposing the backend server o
 
 To setup the development environment with docker follow the next commands:
 ```bash
-# MUST BE inside the femhack-II-frontend/ repository!!!
+# MUST BE inside the hackaton-fem/ repository!!!
 # Building the container
 docker build . -t fh-backend
 
@@ -136,10 +145,21 @@ There are 5 endpoints available plus the documentation endpoint:
 | `GET` | `/year/{year}` | Returns data from all countries in the specificed **year**. |
 | `GET` | `/internet-users/{year}` | Returns total amount of Internet Users in the world in the specified **year**. |
 
-### Setup frontend
+### 👷🏽‍♀️ Setup frontend
+
+the next commands:
+```bash
+# MUST BE inside the hackaton-fem/
+# Enter the `frontend/` directory
+cd frontend/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
+
+### `npm install`
+
+and then you can run:
 
 ### `npm start`
 
@@ -153,3 +173,22 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+````
+
+## 📩 Contact us
+
+<strong>Deimantė Stankūnaitė:</strong>
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deimante-stankunaite-/)
+
+<strong>Nur Ahissami:</strong>
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deimante-stankunaite-/)
+
+<strong>Sofía Graciai:</strong>
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deimante-stankunaite-/)
+
+
+
+
