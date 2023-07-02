@@ -1,16 +1,15 @@
 # The International FemHack II 
 
-## Frontend Challenge
+##ABOUT OUR CODE (AND US)
+Hi! we are Deimantė Stankūnaitė, Nur Ahissami and Sofía Gracia. We worked very hard in this code, hope you enjoy it!
+###the choices we make, the path we walk:
+We decided to use React, as 2 of us already know it, typescript, in order to have a most strong code, and Sass, to help us nesting the styles.
+In the visual aspects, our colour palette is mostly blue and purple, with a light theme, we think is a good combination to present data but keep the visual style a bit funny. We chose "Dosis" as font, because is quite clear and readable.
+As composition, we think that keep the animated chart in the most important position, is the best option. Because is the most impressive and global data, and makes the web more dynamic.
+To create the charts we use Rechart library for React, we find that simple to use and very intuitive.
 
-Welcome participants to **The Internation FemHack edition II Frontend Challenge**! :computer:
 
-This document describes how to setup the **backend** server created for this challenge.
-
-
-## Backend
-
-The **Backend** is the server responsible for managing any dynamic content required by the Frontend. In this case, the backend server provides with world-wide data statistics about Internet.
-Specifically, it returns information on the number of users subscribers with Internet access for each country from 1980 to 2020.
+##HOW TO RUN BACKEND AND FRONTEND
 
 ### Setup backend
 
@@ -96,173 +95,20 @@ There are 5 endpoints available plus the documentation endpoint:
 | `GET` | `/year/{year}` | Returns data from all countries in the specificed **year**. |
 | `GET` | `/internet-users/{year}` | Returns total amount of Internet Users in the world in the specified **year**. |
 
-#### `/countries` 
+### Setup frontend
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##### Parameters 
-None
+In the project directory, you can run:
 
-##### Response
-In JSON format 
+### `npm start`
 
-Returns **200** and the following JSON:
-```jsonc
-// Example (/countries)
-{
-    "Message": "An informative message",
-    "Countries" : [
-        "A",
-        "List",
-        "Of",
-        "Countries",
-    ]
-}
-```
---- 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-#### `/country/{country_name}` 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-##### Parameters 
-**country_name**: The name of the country.
+### `npm test`
 
-##### Response
-
-In JSON format
-
-Returns **200** if the **country_name** can be found on the database and the following JSON:
-```jsonc
-// Example with **country_name** Spain (/country/Spain)
-{
-    "Message": "Data from country `Spain`"
-    "Data": {
-        "1980": {
-            "internet_users_percentatge" : 0, // Percentatge of Internet Users 
-            "internet_users_number" : 0  // Number of users with Internet Access on the country
-        },
-        "1981": {
-            "internet_users_percentatge" : 0,
-            "internet_users_number" : 0
-        },
-        (..)
-    }
-}
-```
-
-Returns **404** if the **country_name** can NOT be found on the database and the following JSON:
-```jsonc
-// Example with country Test (/country/Test)
-{
-    "Message": "Country Test not found",
-    "Data": {}
-}
-```
-
----
-
-#### `/country/{country_name}/year/{year}` 
-
-##### Parameters 
-**country_name**: The name of the country.
-**year**: The year on which extract the information.
-
-##### Response
-In JSON format
-
-Returns **200** if the **country_name** and **year** can be found on the database and the following JSON
-```jsonc
-// Example with country name Spain and year 1997 (/country/Spain/year/1997)
-{
-    "Message": "Data from Country Spain and Year 1997"
-    "Data": {
-        "Spain": {
-            "internet_users_percentatge" : 2.803319693, // Percentatge of Internet Users 
-            "internet_users_number" : 1126375 // Number of users with Internet Access (Spain)
-        }
-    }
-}
-```
-
-Returns **404** if the **country_name** or **year** can NOT be found on the database and the following JSON
-```jsonc
-// Example with country name Test and year 1970 (/country/Test/year/1970)
-{
-    "Message": "Country Test not found",
-    "Data" : {}
-}
-
-// Example with country name Spain and year 1970
-{
-    "Message": "Year 1970 not registered",
-    "Data" : {}
-}
-```
-
---- 
-
-#### `/year/{year}` 
-
-##### Parameters 
-**country_name**: The name of the country.
-**year**: The year on which extract the information.
-
-##### Response
-In JSON
-
-Returns **200** if the **year** can be found on the database and the following JSON:
-```jsonc
-// Example with year 1997 (/year/1997) 
-{
-    "Message": "Data from Year `1997`",
-    "Data": {
-        "Afghanistan": {
-            "internet_users_percentatge": 0,
-            "internet_users_number": 0
-        },
-        "Albania": {
-            "internet_users_percentatge": 0,
-            "internet_users_number": 0
-        },
-        // (...)
-    }
-}
-```
-Returns **404** if the **year** can NOT be found on the database and the following JSON:
-```jsonc
-// Example with year 1954 (/year/1954)
-{
-    "Message": "Year 1954 not registered",
-    "Data": {}
-}
-```
-
---- 
-
-#### `/internet-users/{year}` 
-
-##### Parameters 
-**year**: The year on which extract the information.
-
-##### Response 
-In JSON
-
-Returns **200** if the **year** can NOT be found on the database and the following JSON:
-```jsonc
-// Example with year 1990 (/internet-users/1990)
-{
-    "Message": "Total Internet users in Year 1990",
-    "Data": {
-        "Total": 2586707 // Total of Internet users in 1990 worldwide.
-    }
-}
-```
-
-Returns **404** if the **year** can NOT be found on the database and the following JSON:
-```jsonc
-// Example with **year** 1954 (/internet-users/1954)
-{
-    "Message": "Year 1954 not registered",
-    "Data" : {}
-}
-```
-
----
-> Created by NUWE with :heart: 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
