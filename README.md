@@ -9,7 +9,7 @@ Hi! we are Deimantė Stankūnaitė, Nur Ahissami and Sofía Gracia. We worked ve
   * [Built with](#built-with)
   * [Structure](#elements-that-we-have-to-show-and-structure)  
   * [Decissions](#decissions)
-* [How can you run this project](#how-to-run-backend-and-frontend)HOW TO RUN BACKEND AND FRONTEND
+* [How can you run this project](#how-to-run-backend-and-frontend)
 
 
 ### The choices we made, the path we walk:
@@ -43,7 +43,7 @@ Hi! we are Deimantė Stankūnaitė, Nur Ahissami and Sofía Gracia. We worked ve
         ├── App.tsx 
 ```
 
-####Decissions: In the visual aspects, our colour palette is mostly blue and purple, with a light theme, we think is a good combination to present data but keep the visual style a bit funny. We chose "Dosis" as font, because is quite clear and readable.
+#### Decissions: In the visual aspects, our colour palette is mostly blue and purple, with a light theme, we think is a good combination to present data but keep the visual style a bit funny. We chose "Dosis" as font, because is quite clear and readable.
 As composition, we think that keep the animated chart in the most important position, is the best option. Because is the most impressive and global data, and makes the web more dynamic.
 To create the charts we use Rechart library for React, we find that simple to use and very intuitive.
 
