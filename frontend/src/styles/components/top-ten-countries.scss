@@ -1,0 +1,39 @@
+@import "../core/mixin.scss";
+
+.c-top-ten-country {
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @include tablet {
+    order: 1;
+    height: 100vh;
+  }
+
+  &__title {
+    font-weight: bold;
+    background-color: #64b5f6;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  &__container {
+    @include tablet {
+      overflow-y: scroll;
+      height: 100vh;
+    }
+  }
+
+  &__subtitle {
+    background-color: #f3f4f698;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  &__responsive {
+    margin: 0;
+  }
+}

@@ -1,0 +1,23 @@
+@import "../core/mixin.scss";
+
+.c-evolution-country {
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @include tablet {
+    order: 3;
+  }
+
+  &__title {
+    font-weight: bold;
+    background-color: #81c784;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  &__responsive {
+    margin: 0;
+  }
+}

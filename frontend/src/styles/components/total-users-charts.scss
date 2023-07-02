@@ -1,0 +1,23 @@
+@import "../core/mixin.scss";
+
+.c-total-users {
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @include tablet {
+    order: 2;
+  }
+
+  &__title {
+    font-weight: bold;
+    background-color: #f06292;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  &__responsive {
+    margin: 0;
+  }
+}
