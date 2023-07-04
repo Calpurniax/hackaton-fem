@@ -19,6 +19,10 @@ Hi! we are Deimantė Stankūnaitė, Nur Ahissami and Sofía Gracia. We worked ve
 
 <image src="./readme-img.png" alt="Descripción de la imagen">
 
+
+With the map:
+<image src="./readme-map.png" alt="Descripción de la imagen">
+
 ## 👩🏻‍💻 The choices we made, the path we walk:
 ### 🏗️ Build with: 
 We decided to use `React` and `typescript`, as 2 of us already know it, in order to have a most strong code, and `Sass`, to help us nesting the styles.
@@ -54,8 +58,12 @@ We decided to use `React` and `typescript`, as 2 of us already know it, in order
 ### 💭 Decissions
 
 In the visual aspects, our colour palette is mostly blue and purple, with a light theme, we think is a good combination to present data but keep the visual style a bit funny. We chose "Dosis" as font, because is quite clear and readable.
-As composition, we think that keep the animated chart in the most important position, is the best option. Because is the most impressive and global data, and makes the web more dynamic.
+As composition, the graph of the total internet user is the one containing the `animation`, we think that keep the animated chart in the most important position, is the best option. Because is the most impressive and global data, and makes the web more dynamic.
 To create the charts we use Rechart library for React, we find that simple to use and very intuitive.
+
+🗺️ The ``map`` shows the ranking of the 10 cities with the highest Internet users. 🗺️
+
+⚠️⚠️ To see the map correctly you need a key that we have in our .env, when you correct this document please ask for the ``apiKey`` ⚠️⚠️
 
 <hr>
 
