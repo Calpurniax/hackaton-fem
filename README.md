@@ -185,7 +185,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nurahissami/)
 
-<strong>Sofía Graciai:</strong>
+<strong>Sofía Gracia:</strong>
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sofia-gracia-pe%C3%B1a/)
 
