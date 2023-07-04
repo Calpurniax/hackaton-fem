@@ -33,11 +33,9 @@ select {
     box-shadow: 0 0.8rem 0.8rem 0 #2222;
     transition: 0.2s ease-out;
   }
-  // If the placeholder option is checked...
   &:has(option:checked:first-child) {
     color: #3338;
     text-transform: uppercase;
-    // For browsers/OSes that allow styling of options, reset none placeholder styles
     option {
       color: black;
       text-transform: none;
