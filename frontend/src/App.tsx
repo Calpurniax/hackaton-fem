@@ -8,6 +8,7 @@ import {
 } from "./components/evolution-country-chart";
 import { TopTenCountries } from "./components/top-ten-countries";
 import { Header } from "./components/header";
+import { MapChart } from "./components/map-chart";
 
 function App() {
   const [data, setData] = useState<dataProps[]>([]);
@@ -49,13 +50,16 @@ function App() {
     <div>
       <Header />
       {data.length > 0 && (
-        <div className="c-app">
-          {userXYear && (
-            <TotalUsers userXYear={userXYear} currentYear={currentYear} />
-          )}
-          {data && <EvolutionCountryChart data={data} />}
-          {dataCountries && <TopTenCountries dataCountries={dataCountries} />}
-        </div>
+        <>
+          <MapChart data={dataCountries} />
+          <div className="c-app">
+            {userXYear && (
+              <TotalUsers userXYear={userXYear} currentYear={currentYear} />
+            )}
+            {data && <EvolutionCountryChart data={dataCountries} />}
+            {dataCountries && <TopTenCountries dataCountries={dataCountries} />}
+          </div>
+        </>
       )}
     </div>
   );

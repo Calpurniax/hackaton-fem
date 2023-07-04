@@ -10,8 +10,10 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  width: 100%;
+  overflow: hidden;
 
-  @include tablet {
+  @include desktop {
     flex-direction: row;
     align-items: flex-start;
   }
