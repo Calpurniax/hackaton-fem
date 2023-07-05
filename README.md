@@ -9,7 +9,7 @@ Hi! we are Deimantė Stankūnaitė, Nur Ahissami and Sofía Gracia. We worked ve
   * [🏗️ Built with](#🏗️-built-with)
   * [📋 Structure](#📋-structure)  
   * [💭 Decissions](#💭-decissions)
-* [🏃🏽‍♀️ How can you run this project](#🏃🏽‍♀️-how-to-run-backend-and-frontend)
+* [🏃🏽‍♀️How can you run this project](#🏃🏽‍♀️-how-to-run-backend-and-frontend)
 * [👷🏽‍♀️ Setup backend](#👷🏽‍♀️-setup-backend)
 * [👷🏽‍♀️ Setup frontend](#👷🏽‍♀️-setup-frontend)
 * [📩 Contact us](#📩-contact-us)
@@ -59,11 +59,12 @@ We decided to use `React` and `typescript`, as 2 of us already know it, in order
 
 In the visual aspects, our colour palette is mostly blue and purple, with a light theme, we think is a good combination to present data but keep the visual style a bit funny. We chose "Dosis" as font, because is quite clear and readable.
 As composition, the graph of the total internet user is the one containing the `animation`, we think that keep the animated chart in the most important position, is the best option. Because is the most impressive and global data, and makes the web more dynamic.
-To create the charts we use Rechart library for React, we find that simple to use and very intuitive.
+To create the charts we use `Rechart` library for React, we find that simple to use and very intuitive. For the map we use `React Google maps/Api` 
 
 🗺️ The ``map`` shows the ranking of the 10 cities with the highest Internet users. 🗺️
 
-⚠️⚠️ To see the map correctly you need a key that we have in our .env, when you correct this document please ask for the ``apiKey`` ⚠️⚠️
+⚠️⚠️ To see the map correctly you need a key that we have in our .env, when you correct this document please ask to [Nur Ahissami](https://www.linkedin.com/in/nurahissami/)
+for the ``apiKey`` ⚠️⚠️
 
 <hr>
 
